@@ -32,6 +32,7 @@
 	"depends": {
 		"fabricloader": ">=0.4.0",
 		"fabric-api-base": "*",
+		"fabric-command-api-v1": "*",
 		"plasmid": "*",
 		"cardinal-components-entity": ">=2.7.0"
 	}
