@@ -1,0 +1,9 @@
+{
+	"clothing.clothesbin.test": "Testhat",
+	"text.clothesbin.clothing_type.chest": "Chest",
+	"text.clothesbin.clothing_type.feet": "Feet",
+	"text.clothesbin.clothing_type.head": "Head",
+	"text.clothesbin.clothing_type.legs": "Legs",
+	"text.clothesbin.recommended_clothing_type": "Clothing Type: %s",
+	"text.clothesbin.title": "Clothesbin"
+}

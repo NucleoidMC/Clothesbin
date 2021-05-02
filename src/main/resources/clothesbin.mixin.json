@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.clothesbin.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"EntityTrackerEntryMixin",
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

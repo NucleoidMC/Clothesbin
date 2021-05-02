@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "clothesbin",
+	"version": "${version}",
+	"name": "Clothesbin",
+	"description": "A server-side cosmetic armor management system.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Clothesbin#readme",
+		"issues": "https://github.com/haykam821/Clothesbin/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.clothesbin.Clothesbin"
+		],
+		"cardinal-components-entity": [
+			"io.github.haykam821.clothesbin.component.ClothesbinComponentInitializer"
+		]
+	},
+	"mixins": [
+		"clothesbin.mixin.json"
+	],
+	"custom": {
+		"cardinal-components": [
+			"clothesbin:clothing"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/clothesbin/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric-api-base": "*",
+		"plasmid": "*",
+		"cardinal-components-entity": ">=2.7.0"
+	}
+}
